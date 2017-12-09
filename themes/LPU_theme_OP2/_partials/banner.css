@@ -1,0 +1,10 @@
+#banner {
+  position: fixed;
+  top: 73px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+#banner img {
+  width: 100%;
+}

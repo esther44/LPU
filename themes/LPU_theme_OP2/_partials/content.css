@@ -1,0 +1,8 @@
+.full_content {
+  position: relative;
+  top: 400px;
+}
+.full_content .content {
+  background: rgba(255, 255, 255, 0.9);
+  padding-bottom: 60px;
+}

@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'd3' ]
+2 info using npm@3.6.0
+3 info using node@v5.6.0
+4 verbose stack Error: Cannot find module 'npm-autoinit/autoinit'
+4 verbose stack     at Function.Module._resolveFilename (module.js:339:15)
+4 verbose stack     at Function.Module._load (module.js:290:25)
+4 verbose stack     at Module.require (module.js:367:17)
+4 verbose stack     at require (internal/module.js:16:19)
+4 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:290:9)
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:386:16
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\config\core.js:80:7
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\config\core.js:79:13
+4 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+5 verbose cwd C:\UwAmp\www\lpu\wp-content\themes\LPU_theme_OP
+6 error Windows_NT 10.0.10586
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "d3"
+8 error node v5.6.0
+9 error npm  v3.6.0
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'npm-autoinit/autoinit'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

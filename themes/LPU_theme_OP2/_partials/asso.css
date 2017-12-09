@@ -1,0 +1,24 @@
+#lasso .post-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+}
+#lasso .post-content .container_image img {
+  width: 100%;
+  height: auto;
+}
+#lasso .post-content .container_text {
+  align-self: center;
+}
+#lasso .post-content .container_text .text {
+  font-family: "Roboto Light", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+#lasso .post-content .container_plan img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+}
